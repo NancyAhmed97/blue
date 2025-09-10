@@ -1,0 +1,1 @@
+export const ApiUrl="https://nanosoft.technology/blue-nile/api"

@@ -1,0 +1,18 @@
+.input_container{
+    width: 100%;
+    padding: 10px 0;
+    /* border: 1px solid #B2B2B2; */
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 8px;
+  text-align: right;
+}
+
+.input-wrapper {
+  position: relative;
+}
+.input-field {
+  width: 100%;
+}

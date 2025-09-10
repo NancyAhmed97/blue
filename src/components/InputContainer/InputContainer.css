@@ -1,0 +1,23 @@
+.input_container input{
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid #B2B2B2;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 8px;
+}
+.input-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.input-wrapper {
+  position: relative;
+}
+.input-field {
+  width: 100%;
+  padding-right: 30px; /* space for the icon */
+}

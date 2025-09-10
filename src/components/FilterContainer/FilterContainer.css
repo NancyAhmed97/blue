@@ -1,0 +1,26 @@
+
+.filter_container .title{
+    font-weight: 700;
+}
+.filter_container .rest_btn{
+background-color: gray;
+color: #fff;
+padding: 8px;
+border-radius: 8px;
+font-size: 14px;
+cursor: pointer;
+
+}
+.filter_container .search_btn{
+background-color: #1F477A;
+color: #fff;
+padding: 8px;
+border-radius: 8px;
+font-size: 14px;
+margin-right: 8px;
+cursor: pointer;
+}
+.filter_container .sub_title{
+    font-size: 14px;
+    font-weight: 600;
+}

@@ -1,0 +1,33 @@
+.nav_item a{
+    color: #000;
+    font-weight: 600;
+    margin-right: 18px;
+}
+ .login_container{
+    background-color: rgba(31, 71, 122, 1);display: flex;justify-content: center;padding: 8px 0;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 12px;
+}
+#basic-nav-dropdown1{
+    display: flex !important;
+    align-items: center;
+}
+#basic-nav-dropdown{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown-menu {
+    right:-15% !important;
+    top: 150% !important;
+}
+.navbar_container .active{
+    font-weight: bold !important;
+    color: #1F477A;
+    border-bottom: 1px solid #1F477A;
+}
+.navbar_container a{
+    margin-right: 18px;
+    color: #000;
+}

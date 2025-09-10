@@ -1,0 +1,39 @@
+footer {
+  direction: rtl;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("../../assets/images/Rectangle 1.png") no-repeat center/cover;
+}
+footer .title{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+footer .paragraph{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 12px;
+    line-height: 32px;
+width: 86%;
+}
+footer a{
+    color: #fff;
+    margin-left: 22px;
+}
+footer a:hover{
+    text-decoration: underline !important;
+}
+@media screen and (max-width: 768px) {
+  .logo_container{
+    display: block !important;
+  }  
+  .logo_container .img_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

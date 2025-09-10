@@ -1,0 +1,32 @@
+.sidebar_container .image_container{
+     background-color:rgb(245 245 245);
+     width: 100px;
+     height:100px;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     border-radius: 50%;
+     margin-bottom: 22px;
+     align-self: center;
+}
+.sidebar_container .phone ,.sidebar_container .email{
+    color: rgba(108, 107, 107, 1);
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.sidebar_container li a{
+color: rgba(78, 78, 78, 1);
+font-size: 16px;
+font-weight: bold;
+}
+.sidebar_container li{
+    padding-bottom: 14px;
+    display: flex;
+    align-items: center;
+
+}
+.sidebar_container .active{
+    background-color:rgba(219, 235, 255, 1) ;
+    border-radius: 8px;
+    color:rgba(31, 71, 122, 1);
+}

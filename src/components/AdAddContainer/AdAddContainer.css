@@ -1,0 +1,17 @@
+.Ad_Add_Container{
+    background-color: #1F477A;
+    padding-top: 21px ;
+    padding-bottom: 21px ;
+}
+.Ad_Add_Container .add_button{
+    background-color: #fff;
+    min-width:28%;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    font-weight:700;
+    color: #1F477A;
+    border-radius: 8px;
+    cursor: pointer;
+}

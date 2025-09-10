@@ -1,0 +1,24 @@
+.info_container .title{
+            font-size:18px ;
+    font-weight: 600;
+
+}
+.info_container .location{
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+}
+.info_container .price{
+        font-size:18px ;
+    font-weight: 600;
+    margin-bottom: 24px !important;
+
+}
+.info_container .description_title{
+    font-size:18px ;
+    font-weight: bold;
+}
+.info_container .description{
+    font-size: 16px;
+    line-height: 32px;
+}

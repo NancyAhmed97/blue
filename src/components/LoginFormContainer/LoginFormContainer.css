@@ -1,0 +1,103 @@
+.login_form_Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 22px 0;
+}
+.login_form_Container .logo{
+    width: 30%;
+}
+.login_form_Container .title {
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+}
+
+.login_form_Container .label {
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+        text-align: right;
+
+}
+.login_form_Container .forget_password_container a{
+text-decoration: none;
+color: #1F477A;
+font-size: 14px;
+font-weight: 700;
+}
+
+
+.login_form_Container .or-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+  color: #888;
+  font-weight: 600;
+  font-size: 14px;
+    width: 100%;
+  box-sizing: border-box;
+}
+
+.login_form_Container .or-container::before,
+.login_form_Container .or-container::after {
+  content: "";
+  flex: 1;
+  width: 120px;
+  height: 1px;
+  background-color: #B2B2B2;
+
+}
+
+.login_form_Container .or-container::before {
+  margin-right: 10px;
+}
+
+.login_form_Container .or-container::after {
+  margin-left: 10px;
+}
+
+
+
+
+
+
+.login_form_Container .social-media-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid #B2B2B2;
+    margin-bottom: 12px;
+    border-radius: 24px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none !important;
+
+}
+
+.login_form_Container .social-media-container p {
+    color: #1F477A;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 7px;
+}
+
+
+.login_form_Container .social-media-container img {
+    width: 32px;
+    height: 32px;
+}
+
+
+.login_form_Container .terms_container {
+    color: #B2B2B2;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.login_form_Container .terms_container span {
+    color: #1F477A;
+}

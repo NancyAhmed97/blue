@@ -1,0 +1,18 @@
+.common_button_container{
+    border: 0;
+    background-color: #1F477A;
+    padding: 10px 0;
+    border-radius: 24px;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.disable_common_button_container{
+     border: 0;
+    background-color: gray;
+    padding: 10px 0;
+    border-radius: 24px;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 600;   
+}

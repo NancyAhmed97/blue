@@ -1,0 +1,10 @@
+.location_container{
+    border:1px solid rgba(178, 178, 178, 1);
+    border-radius: 12px;
+    padding:8px;
+}
+.location_container p{
+    font-size: 18px;
+    color: rgba(108, 107, 107, 1);
+    font-weight: 600;
+}

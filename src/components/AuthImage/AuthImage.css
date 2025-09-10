@@ -1,0 +1,7 @@
+.auth_img_container{
+    height: 100vh;
+    position: fixed;
+}
+.auth_img_container img{
+    height: 100%;
+}

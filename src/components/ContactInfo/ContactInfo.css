@@ -1,0 +1,40 @@
+
+.ContactInfo_container{
+    border: 1px solid #e0e0e0;
+    padding: 12px;
+    border-radius: 14px;
+    width: 100%;
+    position: fixed;
+}
+.ContactInfo_container .item_container{
+}
+.ContactInfo_container .item{
+flex-direction: row !important;
+justify-content: center;
+background-color: #25d366;
+border-radius: 18px;
+padding: 8px 6px;
+align-items: center;
+margin-bottom: 8px;
+cursor: pointer;
+}
+.ContactInfo_container .item p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 7px;
+
+}
+.ContactInfo_container .product_img{
+object-fit: fill;
+height: 200px;
+}
+@media (max-width: 768px) {
+.section_header_container .form_container .form_box{
+width: 95%;
+}
+.ContactInfo_container{
+    position: relative;
+}
+
+}

@@ -1,0 +1,9 @@
+.box_container{
+    border: 1px solid #B2B2B2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:23px 10px;
+    border-radius: 8px;
+    
+}

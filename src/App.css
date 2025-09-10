@@ -1,0 +1,37 @@
+.App {
+  font-family: "Cairo", sans-serif;
+}
+a{
+  text-decoration: none !important;
+}
+li{
+  list-style: none !important;
+}
+
+@media (max-width: 768px) {
+
+
+.image_gride_container{
+  display: none;
+}
+.form_gride_container{
+  width: 90% !important;
+}
+}
+.section_container {
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: slideIn 1s ease forwards;
+}
+.left_section_container {
+  opacity: 0;
+  transform: translateX(50px);
+  animation: slideIn 1s ease forwards;
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

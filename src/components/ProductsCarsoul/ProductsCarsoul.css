@@ -1,0 +1,18 @@
+.header_container{
+    display: flex;
+justify-content: space-between; 
+align-items: center;   
+margin-bottom: 28px;
+}
+.header_container .show_more{
+    color: #1F477A;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+.header_container .title{
+    color: #000000;
+    font-size: 20px;
+        font-weight: 700;
+
+}

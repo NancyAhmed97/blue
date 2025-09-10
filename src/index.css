@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.verfiy_container{
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+.open_email_container{
+   font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 18px;
+ 
+}
+.code_container a,
+.code_container .resendCode{
+
+     font-size: 16px;
+color:#1F477A !important;
+font-weight: bold;
+cursor: pointer;
+}
+.dropdown-item:active{
+  background-color: transparent !important;
+  color: #000 !important;
+}
+.description_title{
+      font-size:18px ;
+    font-weight: bold;
+
+}
