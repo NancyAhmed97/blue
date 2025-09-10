@@ -31,11 +31,13 @@ setPackage(res.data.data);
     }
     getData()
     }, [])
+    console.log(packageData,"packageData");
+    
   return (
     <div className='py-5 section_container h-100'>
               <p className='fw-bold'>خطة الاشتراك</p>
       <Container fluid className='h-100'>
-{packageData ?
+{packageData?.package ?
                   <Row className="my-5 align-items-stretch border py-4">
       <Col md={4} className="">
       <ul className='p-0 mt-4'>

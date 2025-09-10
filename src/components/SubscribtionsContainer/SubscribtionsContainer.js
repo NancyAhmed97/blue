@@ -29,7 +29,7 @@ try {
     <li><p> مدة {item?.duration} يوم</p></li>
     <li><p>عدد العقارات المسموح بيها {item?.max_properties} عقار</p></li>
     <li><p>عدد أيام  نشر العقار {item?.property_active_days} يوم</p></li>
-    <li><p> {item?.auto_verify_client==1?"الباقة تسمح بتوثيق الحساب  من غير مايرفع البطاقة":"الباقة لا تسمح بتوثيق الحساب  من غير مايرفع البطاقة"} </p></li>
+    <li><p> {item?.auto_verify_client==1?"الباقة تسمح بتوثيق الحساب  من غير رفع البطاقة":"الباقة لا تسمح بتوثيق الحساب  من غير رفع البطاقة"} </p></li>
 <li>{item?.description}</li>
 </ul>
     <button type='submit' className={'save-btn w-100'}onClick={()=>handleSumbit(item.id)}>
