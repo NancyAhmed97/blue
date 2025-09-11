@@ -24,11 +24,11 @@ import MySubscribtion from "./pages/MySubscribtion";
 import Subscribtions from "./pages/Subscribtions";
 import AddProperty from "./pages/AddProperty";
 import Mycontact from "./pages/Mycontact";
+import ResetPassword from "./pages/ResetPassword";
 // import Error from "./pages/Error";
 
 function MainRoute() {
 //   const userinfo = useSelector((state) => state.auth?.userArray?.user);
-
   return (
     <Routes>
       <Route path="/" element={<Home />} />
@@ -57,6 +57,7 @@ function MainRoute() {
       <Route path={`/UserSubscribtion`} element={<MySubscribtion />} />
       <Route path={`/subscribtions`} element={<Subscribtions />} />
       <Route path={`/add-property`} element={<AddProperty />} />
+      <Route path={`/reset-password`} element={<ResetPassword />} />
       {/* <Route path="/notfound" element={<Error/>} /> */}
 
 
