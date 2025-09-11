@@ -12,33 +12,33 @@ import { ApiUrl } from '../Constant/apiUrl';
 import { toast } from 'react-toastify';
 
 function Code() {
-      const [loading, setLoading] = useState(false)
-      const {identifier} =useParams()
+  const [loading, setLoading] = useState(false)
+  const { identifier } = useParams()
   console.log(identifier);
-  
-  const handleResend=async(e)=>{
-        e.preventDefault();
-            try {
-                setLoading(true)
 
-                const res = await axios.post(`${ApiUrl}/client/auth/email/verification-notification
+  const handleResend = async (e) => {
+    e.preventDefault();
+    try {
+      setLoading(true)
+
+      const res = await axios.post(`${ApiUrl}/client/auth/email/verification-notification
 `, {
-                    // phone:identifier,
+        email:identifier,
 
-                });
-                                setLoading(false)
+      });
+      setLoading(false)
 
-     toast.success("يرجي مراجعة البريد الالكتروني", {
-            position: "bottom-right",
-            autoClose: 3000,
-          });
+      toast.success("يرجي مراجعة البريد الالكتروني", {
+        position: "bottom-right",
+        autoClose: 3000,
+      });
 
-            } catch (err) {
-                setLoading(false)
+    } catch (err) {
+      setLoading(false)
 
-          
 
-            }
+
+    }
   }
   return (
     <div className='code_container'>
@@ -68,7 +68,7 @@ function Code() {
                   لم تستلم البريد الإلكتروني؟
                 </p>
 
-                <div className='resendCode'onClick={handleResend}>اضغط لاعادة الارسال</div>
+                <div className='resendCode' onClick={handleResend}>اضغط لاعادة الارسال</div>
               </div>
 
 
